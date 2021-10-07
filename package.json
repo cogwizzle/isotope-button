@@ -3,7 +3,7 @@
   "description": "Webcomponent isotope-button following open-wc recommendations",
   "license": "MIT",
   "author": "isotope-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/src/index.js",
   "module": "dist/src/index.js",
   "exports": {
@@ -23,13 +23,16 @@
     "storybook:build": "tsc && npm run analyze -- --exclude dist && build-storybook"
   },
   "dependencies": {
+    "@lit-labs/react": "^1.0.0",
     "@UDigStudio/quark-core": "github:UDigStudio/Quark",
-    "lit": "^2.0.0"
+    "lit": "^2.0.0",
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.4.17",
     "@open-wc/eslint-config": "^4.3.0",
     "@open-wc/testing": "next",
+    "@types/react": "^17.0.27",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "@web/dev-server": "^0.1.24",
